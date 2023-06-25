@@ -144,7 +144,7 @@ address {
 }
 
 .content-wrapper {
- /* outline: 3px dotted red; */
+  /* outline: 3px dotted red; */
   width: 90%;
   margin: 50px 0;
 }
@@ -339,19 +339,19 @@ input[type=button] {
 }
 
 .map figure {
-    width: 100%;
-    height: 0; 
-    padding-bottom: 125%; 
-    overflow: hidden;
-    position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  overflow: hidden;
+  position: relative;
 }
- 
+
 .map iframe {
-    width: 100%;
-    height: 100%;
-    position: absolute; 
-    top: 0; 
-    left: 0; 
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .contact-section {
@@ -606,6 +606,10 @@ input[type=button] {
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -648,105 +652,110 @@ input[type=button] {
   /* Desktop styles here */
 
 
-/* General Styles */
-.content-wrapper {
-  max-width: 960px;
-}
+  /* General Styles */
+  .content-wrapper {
+    max-width: 960px;
+  }
 
-/* Header */
+  /* Header */
 
-header {
-  padding: 15px 0;
-}
+  header {
+    padding: 15px 0;
+  }
 
-h2 {
-  font-size: 2.25em;
-}
+  h2 {
+    font-size: 2.25em;
+  }
 
-h3,
-h4 {
-  font-size: 1.875em;
-}
+  h3,
+  h4 {
+    font-size: 1.875em;
+  }
 
-p {
-  font-size: 1.125em;
-  line-height: 1.333;
-}
+  p {
+    font-size: 1.125em;
+    line-height: 1.333;
+  }
 
-/* Hero */
+  /* Hero */
 
-.hero-area h1 {
-  font-size: 3.75em;
-  width: 80%;
-}
+  .hero-area h1 {
+    font-size: 3.75em;
+    width: 80%;
+  }
 
-/* Aside */
+  /* Aside */
 
-aside .content-wrapper {
-  justify-content: space-around;
-}
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
 
-aside .content-wrapper .form-description,
-aside .content-wrapper .form {
-  width: 30%;
-}
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
+  }
 
-.form-description p {
-  font-size: 1.125em;
-}
+  .form-description p {
+    font-size: 1.125em;
+  }
 
-/* Features */
+  /* Features */
 
-.features h2 {
-  width: 90%;
-}
+  .features h2 {
+    width: 90%;
+  }
 
-.features article {
-  flex-basis: 33%;
-}
+  .features article {
+    flex-basis: 33%;
+  }
 
-/* Reviews */
+  /* Reviews */
 
-.reviews h2 {
-  padding-bottom: 50px;
-}
+  .reviews h2 {
+    padding-bottom: 50px;
+  }
 
-.reviews article div {
-  width: 42%;
-}
+  .reviews article div {
+    width: 42%;
+  }
 
-footer h4 {
-  font-size: 1.875em;
-}
+  footer h4 {
+    font-size: 1.875em;
+  }
 
-/* ==========================================================================
+  /* ==========================================================================
      About Page
      ========================================================================== */
 
-.mission h2,
-.contact-section .content-wrapper h2 {
-  width: 95%;
-}
+  .map figure {
+    padding-bottom: 37.5%;
+  }
 
-.contact-content h4 {
-  font-size: 1.875em;
-}
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+  }
 
-/* ==========================================================================
+  .contact-content h4 {
+    font-size: 1.875em;
+  }
+
+  /* ==========================================================================
      FAQ Page
      ========================================================================== */
 
-.faq h2 {
-  width: 100%;
-  font-size: 3em;
+  .faq h2 {
+    width: 100%;
+    font-size: 3em;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: 1.125em;
+    line-height: 1;
+  }
 }
 
-.faq h4,
-.faq p {
-  font-size: 1.125em;
-  line-height: 1;
-}
-}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
