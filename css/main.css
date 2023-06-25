@@ -144,7 +144,7 @@ address {
 }
 
 .content-wrapper {
-  outline: 3px dotted red;
+ /* outline: 3px dotted red; */
   width: 90%;
   margin: 50px 0;
 }
@@ -336,6 +336,22 @@ input[type=button] {
   background-color: #527158;
   display: flex;
   justify-content: center;
+}
+
+.map figure {
+    width: 100%;
+    height: 0; 
+    padding-bottom: 125%; 
+    overflow: hidden;
+    position: relative;
+}
+ 
+.map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
 }
 
 .contact-section {
