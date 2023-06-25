@@ -131,10 +131,13 @@ p {
   line-height: 1.125;
 }
 
-/*
-img {}
+img {
+  width: 100%;
+}
 
-figure {} */
+figure {
+  margin: 0;
+}
 
 address {
   font-style: normal;
@@ -228,6 +231,9 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg) center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
   display: flex;
   justify-content: center;
 }
@@ -276,6 +282,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/unplugged-retreat-features.jpg') #333;
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
@@ -619,9 +628,9 @@ input[type=button] {
 
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width:1200px) {
   /* Desktop styles here */
-}
+
 
 /* General Styles */
 .content-wrapper {
@@ -721,7 +730,7 @@ footer h4 {
   font-size: 1.125em;
   line-height: 1;
 }
-
+}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
