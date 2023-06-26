@@ -611,7 +611,7 @@ input[type=button] {
   }
 
   footer p {
-    font-size: 1.285em;
+    line-height: 1.285;
   }
 
   footer .social-icons {
